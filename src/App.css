@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/imgs/bg-image.jpg"); /* Your image url */
+    background-attachment: fixed;  /* Make background img fixed */
+    background-repeat: no-repeat;  /* Don't repeat the img */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Pull img to center */
+    
+        background-image: url(https://media.istockphoto.com/id/1029147440/photo/video-archives-concept.jpg?s=612x612&w=0&k=20&c=jiv5w0twGAywJXRodNHxQ561JuV2rXF6tWKYiNrdBIY=);
+        background-size: cover;
+   
+}
+.cards{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.card{
+    margin-top: 10px;
+}
